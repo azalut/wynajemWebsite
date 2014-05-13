@@ -1,0 +1,68 @@
+header, nav, footer, aside, article, section{
+    display: block;
+}
+body{
+    background-image: url("../resources/images/mainwallpaper.jpg");
+    background-attachment: fixed;
+}
+#main{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #57bee1;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 800px;
+}
+
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: #39AECF;
+}
+
+#menu{
+    height: 500px;
+    min-width: 14%;
+    background-color: /*#025167*/ #f6a828;
+    margin-right: 80%;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 20px;
+    -webkit-border-radius: 20px; /* Safari, Chrome */
+    -khtml-border-radius: 20px;    /* Konqueror */
+    -moz-border-radius: 20px; /* Firefox */
+}
+
+#central{
+    height: 100%;
+    min-height: 700px;
+    background-color: lightgray;
+    margin-right: 1%;
+    margin-left: 21%;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #39AECF;
+    text-align: center;
+}
+
+#roomsTab{
+    padding: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: lightgray;
+}
+
+
+

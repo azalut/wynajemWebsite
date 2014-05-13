@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Witamy na WynajmijPokój</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../../website/css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!--  jQuery libraries  -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="../javascript/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+    <script src="../javascript/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+    <script src="../javascript/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+
+    <!--  page scripts  -->
+    <script>
+        $(document).ready(function(){
+            $('#checkinDate, #checkoutDate').datepicker({dateFormat: 'yy-mm-dd'});
+
+            $('#checkButton').click(function(){
+                var checkin = $('#checkinDate').val();
+                var checkout = $('#checkoutDate').val();
+                //put ajax here
+            });
+        });
+    </script>
+</head>
+
+
+
+
+
+<body>
+<div id="main">
+    <header id="header">
+
+    </header>
+    <nav id="menu">
+        <section id="categories">
+            <section id="roomsTab">
+                <ul style="list-style-type: none;">
+                    <li><a href="roomRenting.html">Wynajmij pokój</a></li>
+                </ul>
+            </section>
+        </section>
+    </nav>
+
+    <section id="central">
+        <input type="text" id="checkinDate"/>
+        <br><input type="text" id="checkoutDate"/>
+        <br><input type="button" value="Sprawdź" id="checkButton"/>
+    </section>
+
+    <footer id="footer">
+        <p style="line-height: 90px;">Developed by Maciej Tułaza. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</div>
+</body>
+</html>
